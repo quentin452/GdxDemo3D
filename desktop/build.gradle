@@ -31,9 +31,11 @@ task dist(type: Jar) {
     manifest {
         attributes 'Main-Class': project.mainClassName
     }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 
 dist.dependsOn classes
+dist.dependsOn project(':core').tasks.jar
 
 eclipse {
     project {
@@ -53,3 +55,4 @@ task afterEclipseImport(description: "Post processing after project generation",
   }
 }
 targetCompatibility = JavaVersion.VERSION_17
+build.dependsOn dist
