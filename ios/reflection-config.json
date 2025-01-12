@@ -1,0 +1,150 @@
+[
+{
+  "name":"com.mygdx.game.blender.BlenderAssetManager$BlenderSceneData",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.blender.objects.BlenderCamera",
+"allDeclaredFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.blender.objects.BlenderEmpty",
+"allDeclaredFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.blender.objects.BlenderLight",
+"allDeclaredFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.blender.objects.BlenderModel",
+"allDeclaredFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.blender.objects.BlenderObject",
+"allDeclaredFields":true
+},
+{
+"name":"com.mygdx.game.objects.DogCharacter$DogSteerSettings",
+"allPublicFields":true
+},
+{
+"name":"com.mygdx.game.objects.HumanCharacter$HumanSteerSettings",
+"allPublicFields":true
+},
+{
+"name":"com.mygdx.game.objects.dog.AlreadyCriedForHumanDeathCondition",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.CalculatePathToHumanTask",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.CalculatePathToStickTask",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.FollowPathTask",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.GiveStickTask",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.HumanWantToPlayCondition",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.IsHumanDeadCondition",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.IsHumanInRangeCondition",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.LieDownTask",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.MovementAnimationTaskBase",
+"fields":[{"name":"gait"}]
+},
+{
+"name":"com.mygdx.game.objects.dog.PickUpStickTask",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.PissTask",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.SetAlreadyCriedForHumanDeathTask",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.SetThrowButtonTask",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.SitTask",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.SpinAroundTask",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.SpinAroundToFaceHumanTask",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.StandTask",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.StickThrownCondition",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.WanderTask",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.objects.dog.WhineTask",
+"allPublicFields":true,
+"methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+"name":"com.mygdx.game.settings.DebugViewSettings",
+"allDeclaredFields":true
+},
+{
+"name":"com.mygdx.game.settings.ShaderSettings",
+"allPublicFields":true
+}
+]

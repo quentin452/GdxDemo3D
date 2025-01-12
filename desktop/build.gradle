@@ -1,10 +1,14 @@
 apply plugin: "java"
+apply plugin: 'java-library'
 
-sourceCompatibility = 1.6
+sourceCompatibility = 17
 sourceSets.main.java.srcDirs = [ "src/" ]
 
 project.ext.mainClassName = "com.mygdx.game.desktop.DesktopLauncher"
 project.ext.assetsDir = new File("../android/assets");
+
+
+def os = System.properties['os.name'].toLowerCase()
 
 task run(dependsOn: classes, type: JavaExec) {
     main = project.mainClassName
@@ -12,12 +16,16 @@ task run(dependsOn: classes, type: JavaExec) {
     standardInput = System.in
     workingDir = project.assetsDir
     ignoreExitValue = true
+    if (os.contains('mac')) {
+        // Required to run LWJGL3 Java apps on MacOS
+        jvmArgs += "-XstartOnFirstThread"
+    }
 }
 
 task dist(type: Jar) {
-    from files(sourceSets.main.output.classesDir)
+    from files(sourceSets.main.output.classesDirs)
     from files(sourceSets.main.output.resourcesDir)
-    from {configurations.compile.collect {zipTree(it)}}
+    from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
     from files(project.assetsDir);
  
     manifest {
@@ -44,3 +52,4 @@ task afterEclipseImport(description: "Post processing after project generation",
     printer.print(classpath)
   }
 }
+targetCompatibility = JavaVersion.VERSION_17

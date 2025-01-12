@@ -1,0 +1,5 @@
+{
+  "output": "src/main/java",
+  "platform": "iOS",
+  "bindings": []
+}
