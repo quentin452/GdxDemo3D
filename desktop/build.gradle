@@ -5,7 +5,7 @@ sourceCompatibility = 17
 sourceSets.main.java.srcDirs = [ "src/" ]
 
 project.ext.mainClassName = "com.mygdx.game.desktop.DesktopLauncher"
-project.ext.assetsDir = new File("../android/assets");
+project.ext.assetsDir = new File("../resources/assets");
 
 
 def os = System.properties['os.name'].toLowerCase()

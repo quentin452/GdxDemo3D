@@ -69,3 +69,4 @@ build/
 *.obj
 *.mtl
 *.fbx
+/.venv
